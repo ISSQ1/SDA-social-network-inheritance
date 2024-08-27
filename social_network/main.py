@@ -1,3 +1,8 @@
+import sys
+import os
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
+
 from social_network.accounts import User
 from social_network.posts import TextPost, PicturePost, CheckInPost
 
